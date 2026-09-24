@@ -24,25 +24,6 @@ links.forEach(function(link) {
 });
 
 
-// Light / Dark Theme
- const themeButton = document.getElementById("themeBtn");
-
-themeButton.addEventListener("click", function() {
-
-    document.body.classList.toggle("dark");
-
-    if (document.body.classList.contains("dark")) {
-
-        themeButton.textContent = "☀️";
-
-    } else {
-
-        themeButton.textContent = "🌙";
-
-    }
-
-});
-
 
 
 // Contact Form
