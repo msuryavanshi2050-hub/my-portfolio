@@ -352,32 +352,6 @@ footer {
 }
 
 
-/* Dark Theme */
-body.dark {
-    background: #121212;
-    color: #ffffff;
-}
-
-body.dark header {
-    background: #1c1c1c;
-}
-
-body.dark .skill-card,
-body.dark .project-card,
-body.dark .education-card,
-body.dark .achievement-card {
-    background: #1f1f1f;
-    color: white;
-}
-
-body.dark .contact-form input,
-body.dark .contact-form textarea {
-    background: #1f1f1f;
-    color: white;
-    border-color: #555;
-}
-
-
 /* Mobile Responsive */
 @media (max-width: 900px) {
 
